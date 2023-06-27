@@ -1,0 +1,86 @@
+.App {
+  height: 100%;
+  width: 100%;
+  background-image: url(https://wallpapercave.com/wp/P7fo0Ks.jpg);
+}
+
+button:hover {
+  transition: 0.5s;
+  font-weight: bold;
+  border: 4px solid rgba(223, 223, 224, 0.37);
+  border-radius: 40px;
+}
+.card1 {
+  display: flex;
+  background: rgb(173, 184, 193);
+  border: 4px solid rgba(223, 223, 224, 0.37);
+  border-radius: 40px;
+  background: radial-gradient(
+    circle,
+    rgba(174, 209, 238, 0.975) 0%,
+    rgba(175, 148, 233, 0.8539915966386554) 89%
+  );
+  gap: 3rem;
+  /* text-decoration: ; */
+}
+.card2:hover {
+  cursor: pointer;
+  font-size: medium;
+}
+.navbar-brand {
+  color: rgb(248, 244, 244) !important;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 30px;
+  text-shadow: 3px 3px rgb(155, 153, 155) !important;
+}
+.text {
+  color: rgb(83, 0, 64) !important;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 30px;
+  text-shadow: 5px 5px rgb(224, 126, 201) !important;
+}
+.footer {
+  position: absolute;
+  /* bottom: -50px; */
+  /* margin-bottom: 100%; */
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  padding-top: 1rem;
+  font-weight: bolder;
+  font-size: 25px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.footer span {
+  text-align: center;
+  align-items: center;
+}
+.loader-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.834);
+  z-index: 1;
+}
+
+.spinner {
+  width: 64px;
+  height: 64px;
+  border: 8px solid;
+  border-color: #3d5af1 transparent #3d5af1 transparent;
+  border-radius: 50%;
+  animation: spin-anim 1.2s linear infinite;
+}
+
+@keyframes spin-anim {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

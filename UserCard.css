@@ -1,0 +1,20 @@
+.cd:hover{
+    size: 2rem;
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 1s;
+    opacity: 1;
+    background-color: rgb(9, 10, 10);   
+}
+.cd:hover .name{
+    color: white;
+}
+.cd{
+     background-color: rgb(255, 251, 251); 
+}
+.name{
+    color: rgb(0, 0, 0);
+}
+.name:hover{
+    color: white;
+}
